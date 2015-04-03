@@ -1,0 +1,14 @@
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #000;
+  height: 2.6rem !important;
+  line-height: 2.6rem !important;
+}
+#nav > #brand {
+  padding: 0px 10px 0px 10px !important;
+  text-transform: uppercase !important;
+  text-decoration: none;
+}

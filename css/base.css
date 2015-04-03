@@ -1,0 +1,23 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+#brand,
+#subBrand,
+#menu li {
+  padding: 0px 20px;
+}
+#menu {
+  list-style: none outside none;
+}
+#menu li {
+  float: left;
+}
+#content,
+#oldContent,
+#newContent {
+  text-align: center;
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+}

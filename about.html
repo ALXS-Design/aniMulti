@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALXS aniMulti</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div id="nav">
+      <div id="brand">
+      ALXS aniMulti jQuery Plugin
+        
+      </div>
+        <ul id="menu">
+          <li><a class="aniLink" href="/index.html">Home</a></li>
+          <li><a class="aniLink" href="/about.html">About</a></li>
+          <li><a class="aniLink" href="/contact.html">Contact</a></li>
+          
+        </ul>
+    </div>
+    <!-- Content -->
+    <div id="aniMulti">
+      <div id="content">
+        <p>This is my next content</p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+      <div id="subBrand">
+      ALXS aniMulti jQuery Plugin
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-2.1.3.js"></script>
+    <script src="js/jquery.animulti.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#aniMulti').aniMulti({
+          wrapper:            "#content",
+          navID:           "#home",
+          
+          /* Top Bar */
+          topBar:             "true",
+          topMenu:             "true",
+          topID:           "#nav",
+          topHeight:       "2.8125rem",
+          topBg:           "rgba(0,0,0,0.2)",
+          topBorder:       "false",
+          topBorderStyle:  "1px solid #565656",
+          topBrand:        "true",
+          topBrandID:      "#brand",
+          topBrandLocation:   "left",
+          
+          /* Bottom Bar */
+          bottomBar:             "true",
+          bottomBg:           "rgba(0,0,0,0.2)",
+          bottomID:           "#footer",
+          bottomHeight:       "2.8125rem",
+          bottomBorder:       "true",
+          bottomBorderStyle:  "1px solid #565656",
+          bottomBrand:        "true",
+          bottomBrandID:      "#subBrand",
+          bottomBrandLocation:   "right"
+        });
+      });
+    </script>
+  </body>
+</html>
