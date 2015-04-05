@@ -10,4 +10,4 @@ This plugin also contains built in navigation and footer, both of which include 
 
 The main advantages in using this plugin is that the amount of content you have is not as limited and the SEO of your site SHOULD be much better.
 
-### Work In Progress
+##### Please see the Wiki for more details
